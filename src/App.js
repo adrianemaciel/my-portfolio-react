@@ -1,4 +1,8 @@
 import "./style.css";
+import BANNER_IMAGE from "./assets/banner.png";
+import HTML5_IMAGE from "./assets/icons8-html5.png"
+import CSS3_IMAGE from "./assets/icons8-css3.png"
+import JAVASCRIPT_IMAGE from "./assets/icons8-javascript.png"
 
 function App() {
   return (
@@ -45,6 +49,10 @@ function App() {
             specimen book. It has survived not only five centuries, but also the
             leap into electronic typesetting, remaining essentially unchanged.
           </p>
+          <img
+            src={BANNER_IMAGE}
+            alt="banner dev"
+          />
         </div>
       </section>
 
@@ -52,17 +60,17 @@ function App() {
         <div className="tech-icons">
           <img
             className="icons"
-            src="./assets/icons8-html5.png"
+            src={HTML5_IMAGE}
             alt="Logo HTML5"
           />
           <img
             className="icons"
-            src="./assets/icons8-css3.png"
+            src={CSS3_IMAGE}
             alt="Logo CSS3"
           />
           <img
             className="icons"
-            src="assets/icons8-javascript.png"
+            src={JAVASCRIPT_IMAGE}
             alt="Logo JavaScript"
           />
         </div>
