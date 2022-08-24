@@ -1,8 +1,11 @@
 import "./style.css";
-import BANNER_IMAGE from "./assets/banner.png";
+import BANNER_IMAGE from "./assets/banner.png"
 import HTML5_IMAGE from "./assets/icons8-html5.png"
 import CSS3_IMAGE from "./assets/icons8-css3.png"
 import JAVASCRIPT_IMAGE from "./assets/icons8-javascript.png"
+import GIT_IMAGE from "./assets/icons8-git.png"
+import GITHUB_IMAGE from "./assets/icons8-github.png"
+import REACT_IMAGE from "./assets/icons8-react.png"
 
 function App() {
   return (
@@ -73,16 +76,30 @@ function App() {
             src={JAVASCRIPT_IMAGE}
             alt="Logo JavaScript"
           />
+          <img
+            className="icons"
+            src={GIT_IMAGE}
+            alt="Logo Git"
+          />
+          <img
+            className="icons"
+            src={GITHUB_IMAGE}
+            alt="Logo GitHub"
+          />
+          <img
+            className="icons"
+            src={REACT_IMAGE}
+            alt="Logo React"
+          />
+
         </div>
       </section>
 
-      <section class="courses">
+      <section className="courses">
         <div>
-          <head>
             <h2>Cursos</h2>
-          </head>
-          <div class="courses-cards">
-            <div class="cards">
+          <div className="courses-cards">
+            <div className="cards">
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1rhL5yqF4wPmmt04XKFnXuf5wzIoj6bJL/view?usp=sharing"
@@ -99,7 +116,7 @@ function App() {
                 industry's standard dummy text
               </p>
             </div>
-            <div class="cards">
+            <div className="cards">
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/10ezmecFDMLjaWsjcxrOepmdizjLQpcmb/view?usp=sharing"
@@ -116,7 +133,7 @@ function App() {
                 industry's standard dummy text
               </p>
             </div>
-            <div class="cards">
+            <div className="cards">
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1aW6_xSYeaDjAQ7wGf9fD_Nv992Sq35MZ/view?usp=sharing"
@@ -133,7 +150,7 @@ function App() {
                 industry's standard dummy text
               </p>
             </div>
-            <div class="cards">
+            <div className="cards">
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1nKAWEl8Eyp4Hz7KQFEn2lQhnK2kWGs3r/view?usp=sharing"
@@ -150,7 +167,7 @@ function App() {
                 industry's standard dummy text
               </p>
             </div>
-            <div class="cards">
+            <div className="cards">
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1PBybBWvhMZgWj3v8PioLHjHrLh5UZztz/view?usp=sharing"
@@ -167,7 +184,7 @@ function App() {
                 industry's standard dummy text
               </p>
             </div>
-            <div class="cards">
+            <div className="cards">
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/19BSbpmegGnvpAyYMklnGOe5LTU9Gaz7n/view?usp=sharing"
@@ -181,7 +198,66 @@ function App() {
               <p>
                 What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text
+                industry's standard dummy text.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="projects">
+        <div>
+          <h2>Projetos</h2>
+          <div className="project-cards">
+            <div className="project">
+              <a
+                target="_blank"
+                href="https://adrianemaciel.github.io/nlw-return-rocketseat/"
+              >
+                <img
+                src="https://media-exp1.licdn.com/dms/image/C560BAQFU-ZKLLdANXg/company-logo_200_200/0/1596796119888?e=1669248000&v=beta&t=4K0MrKZ5q98ck8W3jlM6fnUJesJ_2pnt8MA6V8mha7I"
+                alt="Logo Rocketseat"
+              />
+              </a>
+              <h3>Nlw Return Rocketseat</h3>
+              <p>
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.
+              </p>
+            </div>
+            <div className="project">
+              <a
+                target="_blank"
+                href="https://github.com/adrianemaciel/projetoyoga.git"
+              >
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
+                alt="Logo GitHub"
+              />
+              </a>
+              <h3>Yoga</h3>
+              <p>
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.
+              </p>
+            </div>
+            <div className="project">
+              <a
+                target="_blank"
+                href="https://adrianemaciel.github.io/LGBTQIA-/"
+              >
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
+                alt="Logo GitHub"
+                />
+              </a>
+              <h3>LGBTQIA+</h3>
+              <p>
+                What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.
               </p>
             </div>
           </div>
