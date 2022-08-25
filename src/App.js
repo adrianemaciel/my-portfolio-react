@@ -263,6 +263,27 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="contact">
+        <h2>Contato</h2>
+        <form className="form">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" />
+            </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu email" />
+          </div>
+          <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+      
     </>
   );
 }

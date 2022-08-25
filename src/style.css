@@ -30,14 +30,16 @@ body {
 .courses,
 .courses-cards,
 .projects,
-.project {
+.project,
+.form {
   max-width: 1300px;
   margin: auto;
 }
 
 .wrapper h2,
 .courses h2,
-.projects h2 {
+.projects h2,
+.contact h2 {
   text-align: center;
 
   padding-top: 30px;
@@ -57,7 +59,8 @@ body {
 
 /***********MENU/NAVEGAÇÃO***********/
 
-.navigation {
+.navigation,
+.courses {
   background: var(--primary-color);
 }
 
@@ -125,10 +128,6 @@ nav ul li {
 }
 
 /***********SECAO CURSOS E PROJETOS***********/
-
-.courses {
-  background-color: var(--primary-color);
-}
 
 .courses h2 {
   color: white;
