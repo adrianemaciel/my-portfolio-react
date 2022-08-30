@@ -58,13 +58,15 @@ body {
   background-color: var(--background-light-gray);
 }
 
-
-/***********MENU/NAVEGAÇÃO***********/
-
 .navigation,
-.courses {
+.courses,
+.footer {
   background: var(--primary-color);
 }
+
+
+
+/***********MENU/NAVEGAÇÃO***********/
 
 nav {
   width: 100%;
@@ -206,4 +208,26 @@ nav ul li {
   color: #FFFFFF;
 
   margin-left: 859px;
+  margin-bottom: 60px;
 }
+
+/***********FOOTER***********/
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+  color:white;
+
+  padding: 60px;
+}
+
+.social-links h2 {
+  margin-bottom: 20px;
+}
+
+.col-2 p {
+  padding: 2px;
+}
+
