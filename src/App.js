@@ -1,11 +1,15 @@
 import "./style.css";
-import BANNER_IMAGE from "./assets/banner.png"
-import HTML5_IMAGE from "./assets/icons8-html5.png"
-import CSS3_IMAGE from "./assets/icons8-css3.png"
-import JAVASCRIPT_IMAGE from "./assets/icons8-javascript.png"
-import GIT_IMAGE from "./assets/icons8-git.png"
-import GITHUB_IMAGE from "./assets/icons8-github.png"
-import REACT_IMAGE from "./assets/icons8-react.png"
+import BANNER_IMAGE from "./assets/banner.png";
+import HTML5_IMAGE from "./assets/icons8-html5.png";
+import CSS3_IMAGE from "./assets/icons8-css3.png";
+import JAVASCRIPT_IMAGE from "./assets/icons8-javascript.png";
+import GIT_IMAGE from "./assets/icons8-git.png";
+import GITHUB_IMAGE from "./assets/icons8-github.png";
+import REACT_IMAGE from "./assets/icons8-react.png";
+import WHATSAPP_IMAGE from "./assets/icons8-whatsapp.png";
+import GMAIL_IMAGE from "./assets/icons8-gmail-logo.png";
+import LINKEDIN_IMAGE from "./assets/icons8-linkedin.png";
+import GITHUB_LOGO_IMAGE from "./assets/icons8-github-logo.png";
 
 function App() {
   return (
@@ -52,52 +56,24 @@ function App() {
             specimen book. It has survived not only five centuries, but also the
             leap into electronic typesetting, remaining essentially unchanged.
           </p>
-          <img
-            src={BANNER_IMAGE}
-            alt="banner dev"
-          />
+          <img src={BANNER_IMAGE} alt="banner dev" />
         </div>
       </section>
 
       <section className="tech">
         <div className="tech-icons">
-          <img
-            className="icons"
-            src={HTML5_IMAGE}
-            alt="Logo HTML5"
-          />
-          <img
-            className="icons"
-            src={CSS3_IMAGE}
-            alt="Logo CSS3"
-          />
-          <img
-            className="icons"
-            src={JAVASCRIPT_IMAGE}
-            alt="Logo JavaScript"
-          />
-          <img
-            className="icons"
-            src={GIT_IMAGE}
-            alt="Logo Git"
-          />
-          <img
-            className="icons"
-            src={GITHUB_IMAGE}
-            alt="Logo GitHub"
-          />
-          <img
-            className="icons"
-            src={REACT_IMAGE}
-            alt="Logo React"
-          />
-
+          <img className="icons" src={HTML5_IMAGE} alt="Logo HTML5" />
+          <img className="icons" src={CSS3_IMAGE} alt="Logo CSS3" />
+          <img className="icons" src={JAVASCRIPT_IMAGE} alt="Logo JavaScript" />
+          <img className="icons" src={GIT_IMAGE} alt="Logo Git" />
+          <img className="icons" src={GITHUB_IMAGE} alt="Logo GitHub" />
+          <img className="icons" src={REACT_IMAGE} alt="Logo React" />
         </div>
       </section>
 
       <section className="courses">
         <div>
-            <h2>Cursos</h2>
+          <h2>Cursos</h2>
           <div className="courses-cards">
             <div className="cards">
               <a
@@ -204,7 +180,7 @@ function App() {
           </div>
         </div>
       </section>
-      
+
       <section className="projects">
         <div>
           <h2>Projetos</h2>
@@ -215,9 +191,9 @@ function App() {
                 href="https://adrianemaciel.github.io/nlw-return-rocketseat/"
               >
                 <img
-                src="https://media-exp1.licdn.com/dms/image/C560BAQFU-ZKLLdANXg/company-logo_200_200/0/1596796119888?e=1669248000&v=beta&t=4K0MrKZ5q98ck8W3jlM6fnUJesJ_2pnt8MA6V8mha7I"
-                alt="Logo Rocketseat"
-              />
+                  src="https://media-exp1.licdn.com/dms/image/C560BAQFU-ZKLLdANXg/company-logo_200_200/0/1596796119888?e=1669248000&v=beta&t=4K0MrKZ5q98ck8W3jlM6fnUJesJ_2pnt8MA6V8mha7I"
+                  alt="Logo Rocketseat"
+                />
               </a>
               <h3>Nlw Return Rocketseat</h3>
               <p>
@@ -231,10 +207,10 @@ function App() {
                 target="_blank"
                 href="https://github.com/adrianemaciel/projetoyoga.git"
               >
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
-                alt="Logo GitHub"
-              />
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
+                  alt="Logo GitHub"
+                />
               </a>
               <h3>Yoga</h3>
               <p>
@@ -248,9 +224,9 @@ function App() {
                 target="_blank"
                 href="https://adrianemaciel.github.io/LGBTQIA-/"
               >
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
-                alt="Logo GitHub"
+                <img
+                  src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
+                  alt="Logo GitHub"
                 />
               </a>
               <h3>LGBTQIA+</h3>
@@ -268,15 +244,21 @@ function App() {
         <h2>Contato</h2>
         <form className="form">
           <div>
-            <label className="label" for="nome">Nome:</label>
+            <label className="label" for="nome">
+              Nome:
+            </label>
             <input className="input" type="text" id="nome" />
-            </div>
+          </div>
           <div>
-            <label className="label" for="email">E-mail:</label>
+            <label className="label" for="email">
+              E-mail:
+            </label>
             <input className="input" type="email" id="email" />
           </div>
           <div>
-            <label className="label" for="msg">Mensagem:</label>
+            <label className="label" for="msg">
+              Mensagem:
+            </label>
             <textarea className="input" id="msg"></textarea>
           </div>
           <div className="button">
@@ -284,7 +266,37 @@ function App() {
           </div>
         </form>
       </section>
-      
+
+      <footer className="footer">
+        <div className="social-links">
+          
+          <div className="col-1">
+            <h2>Contato</h2>
+            <a target="_blank" href="" />
+            <div>
+              <img src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
+              <span>(11)94635-3112</span>
+            </div>
+            <div>
+              <a target="_blank" href="" />
+              <img src={GMAIL_IMAGE} alt="Icone Gmail" />
+              <span>adrianemaciel.developer@gmail.com</span>
+            </div>
+          </div>
+
+          <div className="col-2">
+            <h2>Desenvolvedora</h2>
+            <div>
+              <p>Densenvolvido por Adriane Maciel</p>
+              <p>Todos os Direitos Reservados</p>
+              <a target="_blank" href="" />
+              <img src={LINKEDIN_IMAGE} alt="Icone Linkedin" />
+              <a target="_blank" href="" />
+              <img src={GITHUB_LOGO_IMAGE} alt="Icone GitHub" />
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
