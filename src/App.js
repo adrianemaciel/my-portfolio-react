@@ -1,15 +1,16 @@
 import "./style.css";
-import BANNER_IMAGE from "./assets/banner.png";
+import WOMAN_DEVELOPER_IMAGE from "./assets/woman-developer.png";
 import HTML5_IMAGE from "./assets/icons8-html5.png";
 import CSS3_IMAGE from "./assets/icons8-css3.png";
 import JAVASCRIPT_IMAGE from "./assets/icons8-javascript.png";
 import GIT_IMAGE from "./assets/icons8-git.png";
 import GITHUB_IMAGE from "./assets/icons8-github.png";
 import REACT_IMAGE from "./assets/icons8-react.png";
-import WHATSAPP_IMAGE from "./assets/icons8-whatsapp.png";
-import GMAIL_IMAGE from "./assets/icons8-gmail-logo.png";
-import LINKEDIN_IMAGE from "./assets/icons8-linkedin.png";
-import GITHUB_LOGO_IMAGE from "./assets/icons8-github-logo.png";
+import WHATSAPP_IMAGE from "./assets/whatsapp-icon.png";
+import GMAIL_IMAGE from "./assets/gmail-icon.png";
+import LINKEDIN_IMAGE from "./assets/linkedin-icon.png";
+import GITHUB_LOGO_IMAGE from "./assets/github-icon.png";
+import CODER_IMAGE from "./assets/coder-workplace.png";
 
 function App() {
   return (
@@ -48,15 +49,15 @@ function App() {
       <section className="wrapper">
         <h2>Sobre</h2>
         <div className="about">
-          <p>
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-          </p>
-          <img src={BANNER_IMAGE} alt="banner dev" />
+          <div>
+            <p>
+              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
+            </p>
+          </div>
+          <div>
+            <img src={WOMAN_DEVELOPER_IMAGE} alt="Woman Developer" />
+          </div>
         </div>
       </section>
 
@@ -269,11 +270,13 @@ function App() {
 
       <footer className="footer">
         <div className="social-links">
-          
+          <div>
+            <img src={CODER_IMAGE} alt="local de trabalho do codificador" />
+          </div>
           <div className="col-1">
             <h2>Contato</h2>
-            <a target="_blank" href="" />
             <div>
+              <a target="_blank" href="" />
               <img src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
               <span>(11)94635-3112</span>
             </div>

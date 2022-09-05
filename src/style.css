@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: var(--background-color);
+  background-color: white;
 }
 
 :root {
@@ -103,18 +103,19 @@ nav ul li {
 /***********SECAO SOBRE***********/
 
 .wrapper {
-  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .about p  {
-  width: 50%;
   color: var(--primary-color);
+  min-width: 150px;
 }
 
 /***********SECAO TECH ICONS***********/
@@ -213,21 +214,18 @@ nav ul li {
 
 /***********FOOTER***********/
 
+.footer {
+  display: flex;
+  justify-content: center;
+ 
+}
 .social-links {
   display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-
-  color:white;
-
-  padding: 60px;
+  flex-direction: row;
+  
+  color: white;
 }
 
 .social-links h2 {
   margin-bottom: 20px;
 }
-
-.col-2 p {
-  padding: 2px;
-}
-
