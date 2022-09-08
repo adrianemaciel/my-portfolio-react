@@ -27,26 +27,23 @@ function App() {
           <div>
             <ul>
               <li>
-                <a href="#"></a>Início
+                <a href="#about">Sobre</a>
               </li>
               <li>
-                <a href="#"></a>Sobre
+                <a href="#courses">Cursos</a>
               </li>
               <li>
-                <a href="#"></a>Cursos
+                <a href="#projects">Projetos</a>
               </li>
               <li>
-                <a href="#"></a>Projetos
-              </li>
-              <li>
-                <a href="#"></a>Contato
+                <a href="#contact">Contato</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
 
-      <section className="wrapper">
+      <section className="wrapper" id="#scroll-about">
         <h2>Sobre</h2>
         <div className="about">
           <div>
@@ -275,27 +272,36 @@ function App() {
           </div>
           <div className="col-1">
             <h2>Contato</h2>
-            <div>
-              <a href="" target="_blank" />
-              <img src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
-              <span>(11)94635-3112</span>
+            <div className="icon-link">
+              <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511946353112">
+                <img src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
+                <span>(11)94635-3112</span>
+              </a>
             </div>
-            <div>
-              <a href="" target="_blank" />
-              <img src={GMAIL_IMAGE} alt="Icone Gmail" />
-              <span>adrianemaciel.developer@gmail.com</span>
+            <div className="icon-link">
+              <a href="mailto:adrianemaciel.developer@gmail.com">
+                <img src={GMAIL_IMAGE} alt="Icone Gmail" />
+                <span>adrianemaciel.developer@gmail.com</span>
+              </a>
             </div>
           </div>
 
           <div className="col-2">
             <h2>Desenvolvedora</h2>
             <div>
-              <p>Densenvolvido por Adriane Maciel</p>
-              <p>Todos os Direitos Reservados</p>
-              <a href="" target="_blank" />
-              <img src={LINKEDIN_IMAGE} alt="Icone Linkedin" />
-              <a href="" target="_blank"/>
-              <img src={GITHUB_LOGO_IMAGE} alt="Icone GitHub" />
+              <p>
+                Densenvolvido por Adriane Maciel <br />
+                Todos os Direitos Reservados
+              </p>
+              <a
+                href="https://www.linkedin.com/in/adrianemacieldeveloper/"
+                target="_blank"
+              >
+                <img src={LINKEDIN_IMAGE} alt="Icone Linkedin" />
+              </a>
+              <a href="https://github.com/adrianemaciel" target="_blank">
+                <img src={GITHUB_LOGO_IMAGE} alt="Icone GitHub" />
+              </a>
             </div>
           </div>
         </div>
