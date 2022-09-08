@@ -276,12 +276,12 @@ function App() {
           <div className="col-1">
             <h2>Contato</h2>
             <div>
-              <a target="_blank" href="" />
+              <a href="" target="_blank" />
               <img src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
               <span>(11)94635-3112</span>
             </div>
             <div>
-              <a target="_blank" href="" />
+              <a href="" target="_blank" />
               <img src={GMAIL_IMAGE} alt="Icone Gmail" />
               <span>adrianemaciel.developer@gmail.com</span>
             </div>
@@ -292,9 +292,9 @@ function App() {
             <div>
               <p>Densenvolvido por Adriane Maciel</p>
               <p>Todos os Direitos Reservados</p>
-              <a target="_blank" href="" />
+              <a href="" target="_blank" />
               <img src={LINKEDIN_IMAGE} alt="Icone Linkedin" />
-              <a target="_blank" href="" />
+              <a href="" target="_blank"/>
               <img src={GITHUB_LOGO_IMAGE} alt="Icone GitHub" />
             </div>
           </div>
