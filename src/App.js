@@ -1,5 +1,4 @@
 import "./style.css";
-import WOMAN_DEVELOPER_IMAGE from "./assets/woman-developer.png";
 import HTML5_IMAGE from "./assets/icons8-html5.png";
 import CSS3_IMAGE from "./assets/icons8-css3.png";
 import JAVASCRIPT_IMAGE from "./assets/icons8-javascript.png";
@@ -12,26 +11,14 @@ import LINKEDIN_IMAGE from "./assets/linkedin-icon.png";
 import GITHUB_LOGO_IMAGE from "./assets/github-icon.png";
 import CODER_IMAGE from "./assets/coder-workplace.png";
 import Header from "./componets/Header";
+import About from "./componets/About";
 
 function App() {
   return (
     <>
       <Header />
 
-      <section className="wrapper" id="#scroll-about">
-        <h2>Sobre</h2>
-        <div className="about">
-          <div>
-            <p>
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry.
-            </p>
-          </div>
-          <div>
-            <img src={WOMAN_DEVELOPER_IMAGE} alt="Woman Developer" />
-          </div>
-        </div>
-      </section>
+      <About/>
 
       <section className="tech">
         <div className="tech-icons">
