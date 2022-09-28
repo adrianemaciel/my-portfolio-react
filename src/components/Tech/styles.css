@@ -1,0 +1,14 @@
+.tech {
+  background-color: #edecec;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.icons {
+  width: 120px;
+  height: 120px;
+}

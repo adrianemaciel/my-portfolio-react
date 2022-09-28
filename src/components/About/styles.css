@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper h2 {
+  text-align: center;
+
+  padding-top: 30px;
+
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: hsl(300, 92%, 23%);
+}
+
+.about p {
+  color: hsl(300, 92%, 23%);
+  min-width: 150px;
+}

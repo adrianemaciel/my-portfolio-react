@@ -1,0 +1,33 @@
+nav {
+  width: 100%;
+  background-color: hsl(300, 92%, 23%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+nav p {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: hsl(0, 41%, 96%);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+nav ul li {
+  padding-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
