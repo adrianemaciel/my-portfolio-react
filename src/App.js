@@ -11,37 +11,12 @@ import GMAIL_IMAGE from "./assets/gmail-icon.png";
 import LINKEDIN_IMAGE from "./assets/linkedin-icon.png";
 import GITHUB_LOGO_IMAGE from "./assets/github-icon.png";
 import CODER_IMAGE from "./assets/coder-workplace.png";
+import Header from "./componets/Header";
 
 function App() {
   return (
     <>
-      <header className="navigation">
-        <nav>
-          <div>
-            <p>
-              Adriane <br />
-              Maciel
-            </p>
-          </div>
-
-          <div>
-            <ul>
-              <li>
-                <a href="#about">Sobre</a>
-              </li>
-              <li>
-                <a href="#courses">Cursos</a>
-              </li>
-              <li>
-                <a href="#projects">Projetos</a>
-              </li>
-              <li>
-                <a href="#contact">Contato</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <Header />
 
       <section className="wrapper" id="#scroll-about">
         <h2>Sobre</h2>
