@@ -1,9 +1,8 @@
-.courses {
-  background: hsl(300, 92%, 23%);
+.projects {
+  background-color: #edecec;
 }
 
-.courses h2 {
-  color: white;
+.projects h2 {
   text-align: center;
 
   padding-top: 30px;
@@ -11,17 +10,11 @@
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
+
+  color: hsl(300, 92%, 23%);
 }
 
-.courses-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-  padding: 30px;
-}
-
-.cards {
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,4 +27,12 @@
   border-radius: 6px;
 
   background-color: white;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  padding: 30px;
 }
