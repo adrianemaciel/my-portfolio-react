@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 0px !important;
+  margin: 0px;
   padding: 0px;
   font-family: "Roboto Mono", monospace;
 }
