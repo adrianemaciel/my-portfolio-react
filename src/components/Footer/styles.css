@@ -1,0 +1,27 @@
+.footer {
+  padding: 30px;
+  background: hsl(300, 92%, 23%);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+
+  font-weight: 800;
+  color: var(--color-name);
+}
+
+.social-links h2 {
+  padding-bottom: 30px;
+}
+
+.icon-link a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.icon-link span {
+  margin-left: 10px;
+}
