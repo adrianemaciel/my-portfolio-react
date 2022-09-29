@@ -1,4 +1,6 @@
 .courses {
+  max-width: 1300px;
+  margin: auto;
   background: hsl(300, 92%, 23%);
 }
 
