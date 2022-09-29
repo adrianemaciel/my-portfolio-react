@@ -9,46 +9,17 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Courses from "./components/Courses";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
       <Header />
-
       <About />
-
       <Tech />
-
       <Courses />
-
       <Projects />
-
-      <section className="contact">
-        <h2>Contato</h2>
-        <form className="form">
-          <div>
-            <label className="label" for="nome">
-              Nome:
-            </label>
-            <input className="input" type="text" id="nome" />
-          </div>
-          <div>
-            <label className="label" for="email">
-              E-mail:
-            </label>
-            <input className="input" type="email" id="email" />
-          </div>
-          <div>
-            <label className="label" for="msg">
-              Mensagem:
-            </label>
-            <textarea className="input" id="msg"></textarea>
-          </div>
-          <div className="button">
-            <button type="submit">Enviar</button>
-          </div>
-        </form>
-      </section>
+      <Contact />
 
       <footer className="footer">
         <div className="social-links">
