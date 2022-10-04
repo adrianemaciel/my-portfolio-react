@@ -11,3 +11,7 @@
   --background-color: hsl(0, 2%, 85%);
   --background-light-gray: #edecec;
 }
+
+body {
+  background-color: #FFF;
+}
