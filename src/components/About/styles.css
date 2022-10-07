@@ -53,6 +53,7 @@
 @media (max-width: 913px) {
   .wrapper {
     max-width: 100%;
+    width: 100%;
   }
 
   .about {
