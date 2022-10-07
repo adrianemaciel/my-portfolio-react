@@ -1,10 +1,13 @@
-.projects {
-  max-width: 1300px;
-  margin: auto;
+.section-projects {
   background-color: #edecec;
 }
 
-.projects h2 {
+.wrapper-projects {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.wrapper-projects h2 {
   text-align: center;
 
   padding-top: 30px;
@@ -37,4 +40,27 @@
   justify-content: space-around;
 
   padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .wrapper-projects {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    min-height: 420px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .project h3,
+  p {
+    padding: 20px;
+  }
+
+  .project-cards img {
+    width: 100%;
+  }
 }
