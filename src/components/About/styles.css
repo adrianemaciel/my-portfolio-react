@@ -1,31 +1,75 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  background-color: white;
-
-  max-width: 1300px;
-  margin: auto;
+  background-color: hsl(300, 92%, 23%);
 }
 
 .about {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  color: white;
+  padding: 50px;
+}
+
+.about h4 {
+  margin-top: 10px;
+}
+
+.about button {
+  padding: 15px 50px;
+  border-radius: 5px;
+  border-color: hsl(300, 92%, 23%);
+  color: hsl(300, 92%, 23%);
+  margin-top: 40px
+}
+
+.wrapper-text {
+  width: 50%;
+}
+
+.wrapper-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper h2 {
   text-align: center;
-
   padding-top: 30px;
-
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
-
-  color: hsl(300, 92%, 23%);
+  color: white;
 }
 
 .about p {
-  color: hsl(300, 92%, 23%);
-  min-width: 150px;
+  color: white;
+  margin-top: 30px
+}
+
+@media (max-width: 913px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .about {
+    display: block;
+    padding: 30px;
+  }
+
+  .wrapper-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  .wrapper-image {
+    display: none;
+  }
+
+  .about button {
+    width: 100%;
+  }
 }
