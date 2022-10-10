@@ -1,66 +1,66 @@
-.form {
+.section-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
+}
 
-  max-width: 1300px;
+.form-contact {
+  max-width: 100%;
   margin: auto;
 }
 
-.contact h2 {
+.section-contact h2 {
   text-align: center;
-
   padding-top: 30px;
-
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
-
   color: hsl(300, 92%, 23%);
 }
 
-.form label,
-.form input,
-.form textarea {
+.form-contact label,
+.form-contact input,
+.form-contact textarea {
   display: flex;
-  width: 1164px;
+  width: 700px;
   height: 50px;
   font-weight: 700;
-
   color: hsl(300, 92%, 23%);
 }
 
-.form label {
+.form-contact label {
   padding-top: 10px;
 }
 
-.input {
-  padding: 10px;
+.form-contact input,
+.form-contact textarea {
+  padding: 5px;
   margin-bottom: 40px;
-
   border-radius: 8px;
   border: 1px solid hsl(300, 92%, 23%);
 }
 
-.form textarea {
+.form-contact textarea, input {
+  padding: 5px;
   height: 196px;
 }
 
-.form button {
+.section-contact .form-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-contact button {
   width: 313px;
   height: 45px;
   font-weight: 700;
-
-  margin-left: 859px;
   margin-bottom: 60px;
-
   font-size: 16px;
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
   letter-spacing: 4px;
-
   background: hsl(300, 92%, 23%);
   color: #fff;
   border-radius: 5px;
@@ -73,4 +73,22 @@
   border-radius: 8px;
   box-shadow: 0 0 5px hsl(300, 92%, 23%), 0 0 25px hsl(300, 92%, 23%),
     0 0 50px hsl(300, 92%, 23%), 0 0 100px hsl(300, 92%, 23%);
+}
+
+@media (max-width: 600px) {
+  .form-contact {
+    max-width: 100%;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .form-contact label,
+  .form-contact input,
+  .form-contact textarea {
+    width: 100% !important;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
 }

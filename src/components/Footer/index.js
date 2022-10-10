@@ -10,32 +10,30 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="social-links">
-        <div>
+        <div className="footer-image">
           <img src={CODER_IMAGE} alt="local de trabalho do codificador" />
         </div>
-        <div className="col-1">
+        <div className="col">
           <h2>Contato</h2>
           <div className="icon-link">
             <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511946353112">
-              <img src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
+              <img className="footer-icon" src={WHATSAPP_IMAGE} alt="Icone Whatsapp" />
               <span>(11)94635-3112</span>
             </a>
           </div>
           <div className="icon-link">
             <a href="mailto:adrianemaciel.developer@gmail.com">
-              <img src={GMAIL_IMAGE} alt="Icone Gmail" />
+              <img className="footer-icon" src={GMAIL_IMAGE} alt="Icone Gmail" />
               <span>adrianemaciel.developer@gmail.com</span>
             </a>
           </div>
         </div>
 
-        <div className="col-2">
-          <h2>Desenvolvedora</h2>
+        <div className="col">
+          <h2 className="footer-title">Desenvolvedora</h2>
           <div>
-            <p>
-              Densenvolvido por Adriane Maciel <br />
-              Todos os Direitos Reservados
-            </p>
+            <p className="footer-text">Densenvolvido por Adriane Maciel</p>
+            <p className="footer-text">Todos os Direitos Reservados</p> 
             <a
               href="https://www.linkedin.com/in/adrianemacieldeveloper/"
               target="_blank"
