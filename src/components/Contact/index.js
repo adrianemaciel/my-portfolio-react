@@ -3,9 +3,9 @@ import "./styles.css";
 
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="section-contact">
       <h2>Contato</h2>
-      <form className="form">
+      <form className="form-contact">
         <div>
           <label className="label" for="nome">
             Nome:
@@ -24,7 +24,7 @@ const Contact = () => {
           </label>
           <textarea className="input" id="msg"></textarea>
         </div>
-        <div className="button">
+        <div className="form-button">
           <button id="submit" type="submit">Enviar</button>
         </div>
       </form>
