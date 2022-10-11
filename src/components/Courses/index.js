@@ -121,7 +121,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/19BSbpmegGnvpAyYMklnGOe5LTU9Gaz7n/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QqEB1pNxq8c6vFP1mzsCUYelWp75HDQx/view?usp=sharing"
             >
               <img
                 className="cards-image"
@@ -139,7 +139,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/19BSbpmegGnvpAyYMklnGOe5LTU9Gaz7n/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZSZah8QBDuG4YOh9rELkTpVD3cFhdmiE/view?usp=sharing"
             >
               <img
                 className="cards-image"
