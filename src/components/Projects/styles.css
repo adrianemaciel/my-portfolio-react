@@ -9,36 +9,42 @@
 
 .wrapper-projects h2 {
   text-align: center;
-
   padding-top: 30px;
-
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
-
   color: hsl(300, 92%, 23%);
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  align-items: flex-start;
   width: 260px;
   min-height: 300px;
-
-  padding: 30px;
   margin: 40px;
   border-radius: 6px;
-
   background-color: white;
+}
+
+.project a {
+  width: 100%;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+}
+
+.project h3,
+p {
+  padding: 14px;
 }
 
 .project-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
   padding: 30px;
 }
 
@@ -57,7 +63,7 @@
 
   .project h3,
   p {
-    padding: 20px;
+    padding: 14px;
   }
 
   .project-cards img {

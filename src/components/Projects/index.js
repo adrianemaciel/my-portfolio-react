@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.css";
+import DRI_YOGA_IMAGE from "../../assets/dri-yoga.jpg";
+import LGBTQIA_IMAGE from "../../assets/lgbtqia+.jpg";
 
 const Projects = () => {
   return (
@@ -17,11 +19,11 @@ const Projects = () => {
                 alt="Logo Rocketseat"
               />
             </a>
-            <h3>Nlw Return Rocketseat</h3>
+            <h3>DoctorCare</h3>
             <p>
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text.
+              Evento disponibilizado pela Rocketseat. Desenvolvemos sobre uma
+              empresa fictícia chamada DoctorCare. Na qual proporciona
+              assistência médica simplificada para todos.
             </p>
           </div>
           <div className="project">
@@ -29,30 +31,25 @@ const Projects = () => {
               target="_blank"
               href="https://github.com/adrianemaciel/projetoyoga.git"
             >
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
-                alt="Logo GitHub"
-              />
+              <img src={DRI_YOGA_IMAGE} alt="Dri Yoga" />
             </a>
-            <h3>Yoga</h3>
+            <h3>DriYoga</h3>
             <p>
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text.
+              Projeto desenvolvido sobre uma empresa fictícia chamada DriYoga.
+              Na qual é possivel agendar aulas online de Yoga.
             </p>
           </div>
           <div className="project">
             <a target="_blank" href="https://adrianemaciel.github.io/LGBTQIA-/">
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1669248000&v=beta&t=AgJr1Q3itU6z9ETfbAO5XLpAss_dq1ACrHx1uUo9664"
-                alt="Logo GitHub"
-              />
+              <img src={LGBTQIA_IMAGE} alt="Mês do Orgulho" />
             </a>
-            <h3>LGBTQIA+</h3>
+            <h3>Mês do Orgulho LGBTQIA+</h3>
             <p>
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text.
+              Projeto desenvolvido em homenagem ao Mês do Orgulho é um mês
+              temático em que atenção especial é dada às emancipação e aceitação
+              de gays, lésbicas, bissexuais, transexuais, travestis, pessoas
+              transgênero, queer, ou questionantes, intersexo ou agênero e
+              assexuais ou arromânticos.
             </p>
           </div>
         </div>
