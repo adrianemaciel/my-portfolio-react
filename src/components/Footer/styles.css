@@ -14,6 +14,10 @@
 
 .social-links h2 {
   padding-bottom: 30px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 48px;
+  color: white;
 }
 
 .icon-link a {
@@ -25,6 +29,10 @@
 
 .icon-link span {
   margin-left: 5px;
+}
+
+.col p {
+  padding: 5px;
 }
 
 @media (max-width: 800px) {
