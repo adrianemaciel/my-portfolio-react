@@ -7,8 +7,8 @@ const About = () => {
     <section className="wrapper" id="#scroll-about">
       <div className="about">
         <div className="wrapper-text">
-          <h3>Desenvolvedora Frontend</h3>
-          <h4>Adriane Maciel</h4>
+          <span>DESENVOLVEDORA FRONTEND</span>
+          <h1>Adriane Maciel</h1>
           <p>
             Seja bem-vindo(a) a minha página pessoal. Aqui colocarei alguns
             projetos desenvolvidos e as tecnologias usadas durante o processo.
