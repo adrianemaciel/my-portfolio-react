@@ -1,11 +1,14 @@
 .tech {
   background-color: #edecec;
-  text-align: center;
   padding: 50px;
 }
 
 .tech h3 {
-  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: hsl(300, 92%, 23%);
 }
 
 .tech-icons {
@@ -13,6 +16,7 @@
   justify-content: space-evenly;
   max-width: 1300px;
   margin: auto;
+  padding-top: 30px;
 }
 
 .icons {
@@ -20,9 +24,13 @@
   height: 120px;
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
   .tech-icons {
     max-width: 100%;
+  }
+
+  .tech h3 {
+    font-size: 30px;
   }
 
   .icons {
