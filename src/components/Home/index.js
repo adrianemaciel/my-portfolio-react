@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import WOMAN_DEVELOPER_IMAGE from "../../assets/woman-developer.png";
 
-const About = () => {
+const Home = () => {
   return (
     <section className="wrapper" id="#scroll-about">
       <div className="about">
@@ -24,4 +24,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
