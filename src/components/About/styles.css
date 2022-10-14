@@ -1,70 +1,55 @@
-.wrapper {
-  background-color: hsl(300, 92%, 23%);
-  padding: 20px 10%;
+.section-about {
+  background: white;
+  color: hsl(300, 92%, 23%);
 }
 
-.about {
+.section-about h2 {
+  text-align: center;
+  padding: 30px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.container-about {
   display: flex;
   justify-content: space-around;
   align-items: center;
   max-width: 1300px;
-  min-height: 500px;
   margin: auto;
-  color: white;
+  padding: 30px;
 }
 
-.about span,
-h1 {
-  font-weight: 500;
-  line-height: 27px;
-  text-transform: uppercase;
-  color: white;
+.about-container-image-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 2px;
+  border-radius: 100%;
+  border: 3px dashed hsl(300, 92%, 23%);
+  overflow: hidden;
 }
 
-.about span {
-  font-size: 1.125rem;
+.about-container-image {
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
-.about h1 {
-  font-size: 2rem;
+.about-image {
+  width: 100%;
+  height: 100%;
 }
 
-.about p {
-  color: white;
-  margin-top: 30px;
-  padding: 0px;
-  max-width: 610px;
+.about-author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
 }
 
-.about button {
-  padding: 15px 50px;
-  border-radius: 5px;
-  border-color: hsl(300, 92%, 23%);
-  color: hsl(300, 92%, 23%);
-  margin-top: 40px;
-}
-
-@media (max-width: 913px) {
-  .wrapper {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .about {
-    width: 100%;
-    padding: 30px;
-  }
-
-  .wrapper-text {
-    width: 100%;
-    text-align: left;
-  }
-
-  .wrapper-image {
-    display: none;
-  }
-
-  .about button {
-    width: 100%;
-  }
+.about-author p {
+  text-align: justify;
 }

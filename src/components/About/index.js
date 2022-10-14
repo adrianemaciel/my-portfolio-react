@@ -1,23 +1,38 @@
 import React from "react";
 import "./styles.css";
-import WOMAN_DEVELOPER_IMAGE from "../../assets/woman-developer.png";
+import AUTHOR_DEVELOPER_IMAGE from "../../assets/author-developer.jpg";
 
 const About = () => {
   return (
-    <section className="wrapper" id="#scroll-about">
-      <div className="about">
-        <div className="wrapper-text">
-          <span>DESENVOLVEDORA FRONTEND</span>
-          <h1>Adriane Maciel</h1>
-          <p>
-            Seja bem-vindo(a) a minha página pessoal. Aqui colocarei alguns
-            projetos desenvolvidos e as tecnologias usadas durante o processo.
-          </p>
-
-          <button>Baixar curriculo</button>
+    <section className="section-about">
+      <div className="container-about">
+        <div className="author">
+          <div className="about-container-image-border">
+            <div className="about-container-image">
+              <img
+                className="about-image"
+                src={AUTHOR_DEVELOPER_IMAGE}
+                alt="Author Developer Imagem"
+              />
+            </div>
+          </div>
         </div>
-        <div className="wrapper-image">
-          <img src={WOMAN_DEVELOPER_IMAGE} alt="Woman Developer" />
+        <div className="about-author">
+          <h2>Conheça um pouco sobre mim</h2>
+          <p>
+            Olá, me chamo Adriane Maciel tenho 25 anos sou natural de Manaus/Am.
+            Possuo graduação e pós graduação em Educação Física porém, recorrir
+            a transisão de carreira e há um ano me permitir conhecer a
+            programação desde então venho aprimorando meus conhecimentos no
+            Desenvolvimento Web.
+          </p>
+          <p>
+            Atualmente, estou focada em aprimorar conhecimentos sobre
+            tecnologias voltadas para Front End. Pois desde o início dos meus
+            estudos tive o interesse de fazer parte do desenvolvimento da
+            interface gráfica do usuário de um site e quis tornar disso minha
+            profissão.
+          </p>
         </div>
       </div>
     </section>
