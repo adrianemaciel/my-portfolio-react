@@ -1,6 +1,6 @@
 import "./style.css";
 import Header from "./components/Header";
-import About from "./components/About";
+import Home from "./components/Home";
 import Tech from "./components/Tech";
 import Courses from "./components/Courses";
 import Projects from "./components/Projects";
@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      <About />
+      <Home />
       <Tech />
       <Courses />
       <Projects />
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   );
 }
