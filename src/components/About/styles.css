@@ -3,7 +3,7 @@
   color: hsl(300, 92%, 23%);
 }
 
-.section-about h2 {
+.about-author h2 {
   text-align: center;
   padding: 30px;
   font-weight: 800;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   padding: 2px;
   border-radius: 100%;
   border: 3px dashed hsl(300, 92%, 23%);
@@ -46,10 +46,25 @@
 .about-author {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   width: 60%;
 }
 
 .about-author p {
   text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .section-about {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-container-image-border {
+    display: none;
+  }
+
+  .about-author {
+    width: 100%;
+  }
 }

@@ -1,6 +1,6 @@
 .section-contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   padding-top: 30px;
 }
@@ -41,7 +41,8 @@
   border: 1px solid hsl(300, 92%, 23%);
 }
 
-.form-contact textarea, input {
+.form-contact textarea,
+input {
   padding: 5px;
   height: 196px;
 }

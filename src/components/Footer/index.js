@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="social-links">
         <div className="footer-image">
-          <img src={CODER_IMAGE} alt="local de trabalho do codificador" />
+          <img className="footer-icon" src={CODER_IMAGE} alt="local de trabalho do codificador" />
         </div>
         <div className="col">
           <h2>Contato</h2>
@@ -38,10 +38,10 @@ const Footer = () => {
               href="https://www.linkedin.com/in/adrianemacieldeveloper/"
               target="_blank"
             >
-              <img src={LINKEDIN_IMAGE} alt="Icone Linkedin" />
+              <img className="footer-icon" src={LINKEDIN_IMAGE} alt="Icone Linkedin" />
             </a>
             <a href="https://github.com/adrianemaciel" target="_blank">
-              <img src={GITHUB_LOGO_IMAGE} alt="Icone GitHub" />
+              <img className="footer-icon" src={GITHUB_LOGO_IMAGE} alt="Icone GitHub" />
             </a>
           </div>
         </div>
