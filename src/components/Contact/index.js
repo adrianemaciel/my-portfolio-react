@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles.css";
+import Footer from "../Footer";
 
 const Contact = () => {
   return (
     <section className="section-contact">
-      <h2>Contato</h2>
       <form className="form-contact">
+        <h2>Contato</h2>
         <div>
           <label className="label" for="nome">
             Nome:
@@ -25,9 +26,12 @@ const Contact = () => {
           <textarea className="input" id="msg"></textarea>
         </div>
         <div className="form-button">
-          <button id="submit" type="submit">Enviar</button>
+          <button id="submit" type="submit">
+            Enviar
+          </button>
         </div>
       </form>
+      <Footer />
     </section>
   );
 };
