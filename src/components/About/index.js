@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Tech from "../Tech";
 import AUTHOR_DEVELOPER_IMAGE from "../../assets/author-developer.jpg";
 
 const About = () => {
@@ -32,6 +33,7 @@ const About = () => {
             fazer parte do desenvolvimento da interface gráfica do usuário de um
             site e quero tornar disso minha profissão.
           </p>
+          <Tech />
         </div>
       </div>
     </section>
