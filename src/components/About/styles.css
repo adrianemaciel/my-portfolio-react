@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   padding: 2px;
   border-radius: 100%;
   border: 3px dashed hsl(300, 92%, 23%);
@@ -52,4 +52,19 @@
 
 .about-author p {
   text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .section-about {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-container-image-border {
+    display: none;
+  }
+
+  .about-author {
+    width: 100%;
+  }
 }
