@@ -1,15 +1,13 @@
 .footer {
   max-width: 100%;
   margin: auto;
-  padding: 30px;
-  background: hsl(300, 92%, 23%);
+  color: hsl(300, 92%, 23%);
 }
 
 .social-links {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   font-weight: 800;
-  color: var(--color-name);
 }
 
 .social-links h2 {
@@ -17,7 +15,8 @@
   font-weight: 800;
   font-size: 30px;
   line-height: 48px;
-  color: white;
+  color: hsl(300, 92%, 23%);
+  text-align: start;
 }
 
 .icon-link a {
@@ -29,9 +28,14 @@
 
 .icon-link span {
   margin-left: 5px;
+  color: hsl(300, 92%, 23%);
 }
 
-.col p {
+.footer-text {
+  padding: 5px 0px;
+}
+
+.footer-icon {
   padding: 5px;
 }
 
