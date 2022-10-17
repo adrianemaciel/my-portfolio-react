@@ -14,7 +14,6 @@ function App() {
       {/* <Header /> */}
       <Home />
       <About />
-      <Tech />
       <Courses />
       <Projects />
       <Contact />
