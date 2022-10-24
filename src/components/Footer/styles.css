@@ -7,11 +7,11 @@
 .social-links {
   display: flex;
   flex-direction: column;
-  font-weight: 800;
+  font-weight: 800; 
 }
 
 .social-links h2 {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-weight: 800;
   font-size: 30px;
   line-height: 48px;
@@ -57,7 +57,7 @@
   }
 
   .footer-icon {
-    width: 32px;
+    width: 50px;
   }
 
   .footer-title {
