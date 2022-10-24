@@ -1,13 +1,5 @@
 .section-contact {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
   padding-top: 30px;
-}
-
-.form-contact {
-  max-width: 100%;
-  margin: auto;
 }
 
 .section-contact h2 {
@@ -17,6 +9,16 @@
   font-size: 40px;
   line-height: 48px;
   color: hsl(300, 92%, 23%);
+}
+
+.form-container {
+  display: flex;
+  padding: 30px;
+}
+
+.form-contact {
+  max-width: 100%;
+  margin: auto;
 }
 
 .form-contact label,
@@ -76,7 +78,12 @@ input {
     0 0 50px hsl(300, 92%, 23%), 0 0 100px hsl(300, 92%, 23%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
+  /* .form-container {
+    display: flex;
+    flex-direction: column;
+  } */
+  
   .form-contact {
     max-width: 100%;
     width: 100%;
