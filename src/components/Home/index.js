@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import WOMAN_DEVELOPER_IMAGE from "../../assets/woman-developer.png";
+import CURRICULO_PDF from "../../assets/curriculo-adriane-maciel.pdf";
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
             projetos desenvolvidos e as tecnologias usadas durante o processo.
           </p>
 
-          <button>Baixar curriculo</button>
+          <a href={CURRICULO_PDF} download="Currículo Adriane Maciel">
+            <button>Baixar curriculo</button>
+          </a>
         </div>
         <div className="wrapper-image">
           <img src={WOMAN_DEVELOPER_IMAGE} alt="Woman Developer" />
