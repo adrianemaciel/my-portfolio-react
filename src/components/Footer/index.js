@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="social-links">
         <div className="footer-image">
           <img
-            className="footer-icon"
+            className="footer-image"
             src={CODER_IMAGE}
             alt="local de trabalho do codificador"
           />

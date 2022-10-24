@@ -79,11 +79,12 @@ input {
 }
 
 @media (max-width: 1025px) {
-  /* .form-container {
+  .form-container {
     display: flex;
     flex-direction: column;
-  } */
-  
+    align-items: center;
+  }
+
   .form-contact {
     max-width: 100%;
     width: 100%;
