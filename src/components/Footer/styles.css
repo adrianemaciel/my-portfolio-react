@@ -1,12 +1,14 @@
 .footer {
   max-width: 100%;
   margin: auto;
-  color: hsl(300, 92%, 23%);
+  background-color: hsl(300, 92%, 23%);
+  padding: 30px;
 }
 
 .social-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   font-weight: 800; 
 }
 
@@ -15,7 +17,7 @@
   font-weight: 800;
   font-size: 30px;
   line-height: 48px;
-  color: hsl(300, 92%, 23%);
+  color: white;
   text-align: start;
 }
 
@@ -23,23 +25,21 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #ffffff;
+  color: white;
 }
 
 .icon-link span {
   margin-left: 5px;
-  color: hsl(300, 92%, 23%);
+  color: white;
 }
 
 .footer-text {
   padding: 5px 0px;
+  color: white;
 }
 
-.footer-icon {
-  padding: 5px;
-}
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   .footer {
     max-width: 100%;
     width: 100%;
