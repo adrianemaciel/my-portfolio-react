@@ -8,7 +8,7 @@ const Home = () => {
     <section className="wrapper" id="#scroll-about">
       <div className="about">
         <div className="wrapper-text">
-          <span>DESENVOLVEDORA FRONTEND</span>
+          <span>Desenvolvedora Frontend</span>
           <h1>Adriane Maciel</h1>
           <p>
             Seja bem-vindo(a) a minha página pessoal. Aqui colocarei alguns
@@ -16,7 +16,7 @@ const Home = () => {
           </p>
 
           <a href={CURRICULO_PDF} download="Currículo Adriane Maciel">
-            <button>Baixar curriculo</button>
+            <button>Baixar currículo</button>
           </a>
         </div>
         <div className="wrapper-image">
