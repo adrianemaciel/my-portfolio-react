@@ -18,6 +18,7 @@ const Footer = () => {
           />
         </div>
         <div className="col">
+          <h2>Contato</h2>
           <div className="icon-link">
             <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511946353112">
               <img
@@ -43,7 +44,7 @@ const Footer = () => {
         <div className="col">
           <h2 className="footer-title">Desenvolvedora</h2>
           <div>
-            <p className="footer-text">Densenvolvido por Adriane Maciel</p>
+            <p className="footer-text">Desenvolvido por Adriane Maciel</p>
             <p className="footer-text">Todos os Direitos Reservados</p>
             <a
               href="https://www.linkedin.com/in/adrianemacieldeveloper/"
