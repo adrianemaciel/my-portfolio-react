@@ -14,5 +14,9 @@
 }
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
