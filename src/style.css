@@ -1,5 +1,5 @@
 * {
-  overflow: overlay;
+  
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -15,6 +15,7 @@
 
 body {
   background-color: #fff;
+  overflow: overlay;
 }
 
 html {
