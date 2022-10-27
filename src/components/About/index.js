@@ -5,7 +5,7 @@ import AUTHOR_DEVELOPER_IMAGE from "../../assets/author-developer.jpg";
 
 const About = () => {
   return (
-    <section className="section-about">
+    <section className="section-about" id="about">
       <div className="container-about">
         <div className="author">
           <div className="about-container-image-border">
