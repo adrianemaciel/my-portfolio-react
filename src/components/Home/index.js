@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import WOMAN_DEVELOPER_IMAGE from "../../assets/woman-developer.png";
+import CODE_BANNER_IMAGE from "../../assets/code-banner.png";
 import CURRICULO_PDF from "../../assets/curriculo-adriane-maciel.pdf";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
           </a>
         </div>
         <div className="wrapper-image">
-          <img src={WOMAN_DEVELOPER_IMAGE} alt="Woman Developer" />
+          <img src={CODE_BANNER_IMAGE} alt="Banner" />
         </div>
       </div>
     </section>

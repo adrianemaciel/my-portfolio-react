@@ -8,7 +8,7 @@ import CODER_IMAGE from "../../assets/coder-workplace.png";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="social-links">
         <div className="footer-image">
           <img

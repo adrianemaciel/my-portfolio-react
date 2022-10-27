@@ -5,7 +5,7 @@ import LGBTQIA_IMAGE from "../../assets/lgbtqia+.jpg";
 
 const Projects = () => {
   return (
-    <section className="section-projects">
+    <section className="section-projects" id="projects">
       <div className="wrapper-projects">
         <h2>Projetos</h2>
         <div className="project-cards">
