@@ -4,9 +4,17 @@ import "./styles.css";
 const Header = () => {
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
-        Adriane Maciel
-      </a>
+      <div className="navigation-menu">
+        <span className="tags">&lt;</span>
+        <a
+          target="_blank"
+          href="https://github.com/adrianemaciel"
+          className="brand-name"
+        >
+          Adriane Maciel
+        </a>
+        <span className="tags">/&gt;</span>
+      </div>
       <div className="navigation-menu">
         <ul>
           <li>
