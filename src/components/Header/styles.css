@@ -4,12 +4,17 @@
   justify-content: space-between;
   height: 80px;
   max-width: 1300px;
+  width: 100%;
   margin: auto;
   position: relative;
   padding: 0.5rem 2rem;
   background-color: hsl(300, 92%, 23%);
   box-shadow: 0 2px rgba(9, 9, 9, 0.23);
 }
+
+/* .navigation-menu {
+  margin-left: auto;
+} */
 
 .tags {
   color: white;
@@ -47,7 +52,6 @@
 
 .navigation ul {
   display: flex;
-  list-style: none;
   font-weight: 800;
   padding: 0;
 }
@@ -58,6 +62,7 @@
 }
 
 .navigation ul li a {
+  display: block;
   text-decoration: none;
   color: white;
   width: 100%;
@@ -78,30 +83,27 @@
 
   .navigation-menu ul {
     display: none;
-  }
-
-  .navigation-menu ul {
     position: absolute;
     top: 60px;
     left: 0;
-
     flex-direction: column;
-
     height: calc(100vh - 77px);
-    background-color: white;
+    background-color: hsl(300, 92%, 23%);
     border-top: 1px solid black;
   }
+
   .navigation-menu li {
     text-align: center;
     margin: 0;
   }
+
   .navigation-menu li a {
     color: black;
-
     width: 100%;
     padding: 1.5rem 0;
   }
+
   .navigation-menu li:hover {
-    background-color: #eee;
+    background-color: #dda0dd;
   }
 }

@@ -18,7 +18,7 @@ const Header = () => {
       <div className="navigation-menu">
         <ul>
           <li>
-            <a href="# about">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
             <a href="#courses">Cursos</a>
