@@ -1,5 +1,4 @@
 * {
-  
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -14,7 +13,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: hsl(300, 92%, 23%);
   overflow: overlay;
 }
 
