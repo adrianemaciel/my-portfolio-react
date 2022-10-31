@@ -4,32 +4,34 @@ import "./styles.css";
 const Header = () => {
   return (
     <nav className="navigation">
-      <div className="navigation-menu">
-        <span className="tags">&lt;</span>
-        <a
-          target="_blank"
-          href="https://github.com/adrianemaciel"
-          className="brand-name"
-        >
-          Adriane Maciel
-        </a>
-        <span className="tags">/&gt;</span>
-      </div>
-      <div className="navigation-menu">
-        <ul>
-          <li>
-            <a href="#about">Sobre</a>
-          </li>
-          <li>
-            <a href="#courses">Cursos</a>
-          </li>
-          <li>
-            <a href="#projects">Projetos</a>
-          </li>
-          <li>
-            <a href="#contact">Contato</a>
-          </li>
-        </ul>
+      <div className="navbar">
+        <div className="navigation-menu">
+          <span className="tags">&lt;</span>
+          <a
+            target="_blank"
+            href="https://github.com/adrianemaciel"
+            className="brand-name"
+          >
+            Adriane Maciel
+          </a>
+          <span className="tags">/&gt;</span>
+        </div>
+        <div className="navigation-menu">
+          <ul>
+            <li>
+              <a href="#about">Sobre</a>
+            </li>
+            <li>
+              <a href="#courses">Cursos</a>
+            </li>
+            <li>
+              <a href="#projects">Projetos</a>
+            </li>
+            <li>
+              <a href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
       <button className="hamburger">
         {/* icon from heroicons.com */}

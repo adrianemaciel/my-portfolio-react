@@ -1,20 +1,20 @@
 .navigation {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 80px;
-  max-width: 1300px;
-  width: 100%;
-  margin: auto;
   position: relative;
   padding: 0.5rem 2rem;
   background-color: hsl(300, 92%, 23%);
   box-shadow: 0 2px rgba(9, 9, 9, 0.23);
 }
 
-/* .navigation-menu {
-  margin-left: auto;
-} */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+}
 
 .tags {
   color: white;
