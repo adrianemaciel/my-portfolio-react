@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.2fa22dd4.css",
-    "main.js": "./static/js/main.b7301699.js",
+    "main.css": "./static/css/main.e7d3fffb.css",
+    "main.js": "./static/js/main.ba5bed52.js",
     "static/js/787.128fc6e9.chunk.js": "./static/js/787.128fc6e9.chunk.js",
     "static/media/code-banner.png": "./static/media/code-banner.06155215baa8b949355e.png",
     "static/media/curriculo-adriane-maciel.pdf": "./static/media/curriculo-adriane-maciel.ce375f23704e1decdcf8.pdf",
@@ -9,12 +9,12 @@
     "static/media/icons8-react.png": "./static/media/icons8-react.f2dc55b6e5f884cdd91b.png",
     "static/media/coder-workplace.png": "./static/media/coder-workplace.c80a4dcc3eb3482c0883.png",
     "index.html": "./index.html",
-    "main.2fa22dd4.css.map": "./static/css/main.2fa22dd4.css.map",
-    "main.b7301699.js.map": "./static/js/main.b7301699.js.map",
+    "main.e7d3fffb.css.map": "./static/css/main.e7d3fffb.css.map",
+    "main.ba5bed52.js.map": "./static/js/main.ba5bed52.js.map",
     "787.128fc6e9.chunk.js.map": "./static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fa22dd4.css",
-    "static/js/main.b7301699.js"
+    "static/css/main.e7d3fffb.css",
+    "static/js/main.ba5bed52.js"
   ]
 }
