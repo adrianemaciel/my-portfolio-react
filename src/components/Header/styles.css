@@ -20,6 +20,7 @@
   color: white;
   font-size: 1.3rem;
   margin-left: 10px;
+  animation: neon 5s infinite;
 }
 
 .brand-name {
@@ -27,6 +28,22 @@
   color: white;
   font-weight: 800;
   font-size: 1.3rem;
+  animation: neon 5s infinite;
+}
+
+@keyframes neon {
+  0%,
+  39%,
+  41%,
+  59%,
+  61%,
+  100% {
+    text-shadow: white 0 0 12px, #ff3aad 0 0 24px, #ff3aad 0 0 36px;
+  }
+  40%,
+  60% {
+    text-shadow: none;
+  }
 }
 
 .hamburger {
