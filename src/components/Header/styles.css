@@ -19,6 +19,7 @@
 .tags {
   color: white;
   font-size: 1.3rem;
+  font-weight:bold;
   margin-left: 10px;
   animation: neon 5s infinite;
 }
@@ -26,7 +27,7 @@
 .brand-name {
   text-decoration: none;
   color: white;
-  font-weight: 800;
+  font-weight: bold;
   font-size: 1.3rem;
   animation: neon 5s infinite;
 }
