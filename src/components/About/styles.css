@@ -43,11 +43,28 @@
   height: 100%;
 }
 
+.about-container-image-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-author {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 60%;
+}
+
+.about-social-links {
+  display: flex;
+}
+
+.about-link {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10rem;
+  padding: 10px;
 }
 
 .about-author p {
