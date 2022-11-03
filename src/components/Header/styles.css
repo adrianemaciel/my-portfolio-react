@@ -68,18 +68,18 @@
   background-color: hsl(300, 92%, 23%);
 }
 
-.navigation ul {
+.navigation-menu ul {
   display: flex;
   font-weight: 800;
   padding: 0;
 }
 
-.navigation li {
+.navigation-menu li {
   margin: 0 1rem;
   list-style-type: none;
 }
 
-.navigation ul li a {
+.navigation-menu li a {
   display: block;
   text-decoration: none;
   color: white;
@@ -89,7 +89,7 @@
   border-radius: 20px;
 }
 
-.navigation ul li a:hover {
+.navigation-menu li a:hover {
   background-color: #dda0dd;
   transition: all 0.5s ease 0s;
 }
@@ -102,7 +102,7 @@
   .navigation-menu ul {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 80px;
     left: 0;
     flex-direction: column;
     height: calc(100vh - 77px);
@@ -116,7 +116,7 @@
   }
 
   .navigation-menu li a {
-    color: black;
+    color: white;
     width: 100%;
     padding: 1.5rem 0;
   }

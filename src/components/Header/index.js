@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="navigation">
       <div className="navbar">
-        <div className="navigation-menu">
+        <div>
           <span className="tags">&lt;</span>
           <span className="brand-name"> Adriane Maciel</span>
           <span className="tags">/&gt;</span>
