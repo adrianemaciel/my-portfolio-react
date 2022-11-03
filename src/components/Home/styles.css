@@ -66,6 +66,7 @@ h1 {
   }
 
   .about button {
+    max-width: 250px;
     width: 100%;
   }
 }
