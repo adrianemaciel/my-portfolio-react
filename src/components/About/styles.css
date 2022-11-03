@@ -77,7 +77,8 @@
     width: 100%;
   }
 
-  .about-container-image-border {
+  .about-container-image-border,
+  .about-link {
     display: none;
   }
 
