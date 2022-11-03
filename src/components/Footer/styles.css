@@ -1,24 +1,24 @@
 .footer {
-  max-width: 100%;
-  margin: auto;
   background-color: hsl(300, 92%, 23%);
   padding: 30px;
 }
 
 .social-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  font-weight: 800;
+  font-weight: 400;
+  max-width: 1300px;
+  margin: auto;
 }
 
-.social-links h2 {
-  padding-bottom: 20px;
+.footer h2 {
+  padding-top: 20px;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 48px;
   color: white;
-  text-align: start;
+  text-align: center;
 }
 
 .icon-link a {
@@ -27,6 +27,7 @@
   text-decoration: none;
   font-size: 16px;
   color: white;
+  margin-top: 40px;
 }
 
 .icon-link span {
@@ -34,20 +35,17 @@
   color: white;
 }
 
+.icon-link span:hover {
+  color: #dda0dd;
+  transition: all 0.2s ease;
+}
+
 .footer-text {
-  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
   color: white;
-}
-
-.footer-banner {
-  width: 500px;
-}
-
-@media (max-width: 1024px) {
-  .footer-banner {
-    width: 350px;
-    margin: -50px;
-  }
+  font-weight: 600;
 }
 
 @media (max-width: 950px) {
@@ -69,13 +67,5 @@
 
   .footer-icon {
     width: 2.4rem;
-  }
-
-  .footer-title {
-    padding: 20px 0px 10px 0px;
-  }
-
-  .footer-image {
-    display: none;
   }
 }

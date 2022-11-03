@@ -9,17 +9,9 @@ import FOOTER_BANNER_IMAGE from "../../assets/footer-banner.png";
 const Footer = () => {
   return (
     <footer className="footer" id="contact">
+      <h2>Contato</h2>
       <div className="social-links">
-        <div className="footer-image">
-          {/*illustrations by Storyset */}
-          <img
-            className="footer-banner"
-            src={FOOTER_BANNER_IMAGE}
-            alt="Banner de contato"
-          />
-        </div>
         <div className="col">
-          <h2>Contato</h2>
           <div className="icon-link">
             <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511946353112">
               <img
@@ -41,12 +33,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        <div className="col">
-          <h2 className="footer-title">Desenvolvedora</h2>
+        <div className="icon-link">
           <div>
-            <p className="footer-text">Desenvolvido por Adriane Maciel</p>
-            <p className="footer-text">Todos os Direitos Reservados</p>
             <a
               href="https://www.linkedin.com/in/adrianemacieldeveloper/"
               target="_blank"
@@ -56,6 +44,7 @@ const Footer = () => {
                 src={LINKEDIN_IMAGE}
                 alt="Icone Linkedin"
               />
+              <span>adrianemacieldeveloper</span>
             </a>
             <a href="https://github.com/adrianemaciel" target="_blank">
               <img
@@ -63,9 +52,13 @@ const Footer = () => {
                 src={GITHUB_LOGO_IMAGE}
                 alt="Icone GitHub"
               />
+              <span>adrianemaciel</span>
             </a>
           </div>
         </div>
+      </div>
+      <div className="footer-text">
+        <span> &copy; 2022 - Adriane Maciel</span>
       </div>
     </footer>
   );
