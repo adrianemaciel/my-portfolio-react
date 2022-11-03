@@ -5,15 +5,9 @@ const Header = () => {
   return (
     <nav className="navigation">
       <div className="navbar">
-        <div className="navigation-menu">
+        <div>
           <span className="tags">&lt;</span>
-          <a
-            target="_blank"
-            href="https://github.com/adrianemaciel"
-            className="brand-name"
-          >
-            Adriane Maciel
-          </a>
+          <span className="brand-name"> Adriane Maciel</span>
           <span className="tags">/&gt;</span>
         </div>
         <div className="navigation-menu">
