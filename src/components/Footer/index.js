@@ -4,17 +4,18 @@ import WHATSAPP_IMAGE from "../../assets/whatsapp-icon.png";
 import GMAIL_IMAGE from "../../assets/gmail-icon.png";
 import LINKEDIN_IMAGE from "../../assets/linkedin-icon.png";
 import GITHUB_LOGO_IMAGE from "../../assets/github-icon.png";
-import CODER_IMAGE from "../../assets/coder-workplace.png";
+import FOOTER_BANNER_IMAGE from "../../assets/footer-banner.png";
 
 const Footer = () => {
   return (
     <footer className="footer" id="contact">
       <div className="social-links">
         <div className="footer-image">
+          {/*illustrations by Storyset */}
           <img
-            className="footer-image"
-            src={CODER_IMAGE}
-            alt="local de trabalho do codificador"
+            className="footer-banner"
+            src={FOOTER_BANNER_IMAGE}
+            alt="Banner de contato"
           />
         </div>
         <div className="col">

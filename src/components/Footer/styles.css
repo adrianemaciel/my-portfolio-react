@@ -7,9 +7,9 @@
 
 .social-links {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  font-weight: 800; 
+  align-items: center;
+  font-weight: 800;
 }
 
 .social-links h2 {
@@ -25,6 +25,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-size: 16px;
   color: white;
 }
 
@@ -38,6 +39,16 @@
   color: white;
 }
 
+.footer-banner {
+  width: 500px;
+}
+
+@media (max-width: 1024px) {
+  .footer-banner {
+    width: 350px;
+    margin: -50px;
+  }
+}
 
 @media (max-width: 950px) {
   .footer {
@@ -57,14 +68,11 @@
   }
 
   .footer-icon {
-    width: 50px;
+    width: 2.4rem;
   }
 
   .footer-title {
-    padding: 20px 0px 0px 0px;
-  }
-  .footer-text {
-    padding: 0px 0px 20px 0px;
+    padding: 20px 0px 10px 0px;
   }
 
   .footer-image {
