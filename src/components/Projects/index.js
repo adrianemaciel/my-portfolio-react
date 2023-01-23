@@ -12,6 +12,7 @@ const Projects = () => {
           <div className="project">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://adrianemaciel.github.io/nlw-return-rocketseat/"
             >
               <img
@@ -29,6 +30,7 @@ const Projects = () => {
           <div className="project">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/adrianemaciel/projetoyoga.git"
             >
               <img src={DRI_YOGA_IMAGE} alt="Dri Yoga" />
@@ -40,7 +42,11 @@ const Projects = () => {
             </p>
           </div>
           <div className="project">
-            <a target="_blank" href="https://adrianemaciel.github.io/LGBTQIA-/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://adrianemaciel.github.io/LGBTQIA-/"
+            >
               <img src={LGBTQIA_IMAGE} alt="Mês do Orgulho" />
             </a>
             <h3>Mês do Orgulho LGBTQIA+</h3>

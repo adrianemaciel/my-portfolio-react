@@ -10,6 +10,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1rhL5yqF4wPmmt04XKFnXuf5wzIoj6bJL/view?usp=sharing"
             >
               <img
@@ -29,6 +30,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/10ezmecFDMLjaWsjcxrOepmdizjLQpcmb/view?usp=sharing"
             >
               <img
@@ -47,6 +49,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1aW6_xSYeaDjAQ7wGf9fD_Nv992Sq35MZ/view?usp=sharing"
             >
               <img
@@ -66,6 +69,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1nKAWEl8Eyp4Hz7KQFEn2lQhnK2kWGs3r/view?usp=sharing"
             >
               <img
@@ -84,6 +88,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1PBybBWvhMZgWj3v8PioLHjHrLh5UZztz/view?usp=sharing"
             >
               <img
@@ -103,6 +108,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/19BSbpmegGnvpAyYMklnGOe5LTU9Gaz7n/view?usp=sharing"
             >
               <img
@@ -121,6 +127,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1QqEB1pNxq8c6vFP1mzsCUYelWp75HDQx/view?usp=sharing"
             >
               <img
@@ -139,6 +146,7 @@ const Courses = () => {
           <div className="cards">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1ZSZah8QBDuG4YOh9rELkTpVD3cFhdmiE/view?usp=sharing"
             >
               <img
