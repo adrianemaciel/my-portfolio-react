@@ -4,14 +4,11 @@ import "./styles.css";
 const Projects = () => {
   const [repoList, setRepoList] = useState();
 
-  console.log("repolist", repoList);
-
   useEffect(() => {
     fetch("https://api.github.com/users/adrianemaciel/repos")
       .then((res) => res.json())
       .then(
         (result) => {
-          console.log("ressss", result);
           const repoItem = result.map((repo) => {
             return {
               name: repo.name,
