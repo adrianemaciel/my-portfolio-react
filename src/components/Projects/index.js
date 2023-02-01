@@ -11,16 +11,26 @@ const Projects = () => {
       .then((res) => res.json())
       .then(
         (result) => {
-          // console.log("ressss", result);
+          console.log("ressss", result);
           const repoItem = result.map((repo) => {
             return {
               name: repo.name,
               description: repo.description,
+              html_url: repo.html_url,
             };
           });
-          console.log("repoItem", repoItem);
 
-          const testeM3 = repoItem.filter((repo) => repo.name === "teste-desafio-m3")[0];
+          const portfolio = repoItem.filter(
+            (repo) => repo.name === "my-portfolio-react"
+          )[0];
+
+          const testeFmd = repoItem.filter(
+            (repo) => repo.name === "fork-frontend-vagas"
+          )[0];
+
+          const testeM3 = repoItem.filter(
+            (repo) => repo.name === "teste-desafio-m3"
+          )[0];
 
           const nlw = repoItem.filter(
             (repo) => repo.name === "nlw-return-rocketseat"
@@ -32,7 +42,7 @@ const Projects = () => {
 
           const lgbt = repoItem.filter((repo) => repo.name === "LGBTQIA-")[0];
 
-          setRepoList([nlw, yoga, lgbt, testeM3]);
+          setRepoList([nlw, yoga, lgbt, testeM3, testeFmd, portfolio]);
         },
         (error) => {
           console.log(error);
@@ -49,15 +59,11 @@ const Projects = () => {
             return (
               <div className="project-cards">
                 <div className="project">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://adrianemaciel.github.io/nlw-return-rocketseat/"
-                  >
-                    {/* <img
-                      src="https://media-exp1.licdn.com/dms/image/C560BAQFU-ZKLLdANXg/company-logo_200_200/0/1596796119888?e=1669248000&v=beta&t=4K0MrKZ5q98ck8W3jlM6fnUJesJ_2pnt8MA6V8mha7I"
-                      alt="Logo Rocketseat"
-                    /> */}
+                  <a target="_blank" rel="noreferrer" href={repo.html_url}>
+                    <img
+                      src="https://i.postimg.cc/26HV8Q4L/octocat-1664567542809.png"
+                      alt="Octocat"
+                    />
                   </a>
                   <h3>{repo.name}</h3>
                   <p>{repo.description}</p>
