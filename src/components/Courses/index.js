@@ -15,7 +15,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQGYE7b1n_6bKA/company-logo_200_200/0/1657647421523?e=1673481600&v=beta&t=-DHnnsTS82FJXmH7888TN1E-5egOlhE_2FhmHPv8JVo"
+                src="https://transforma.fbb.org.br/storage/institutions/191211201904245cc0b50b2ff40.jpeg"
                 alt="Logo IOS - Instituto da Oportunidade Social"
               />
             </a>
@@ -35,7 +35,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4E0BAQFOiaQvbDY3hQ/company-logo_200_200/0/1547486273811?e=1673481600&v=beta&t=CVgHfG1MLLHTv5fmWly5_daNOtwuKXB9uSFP2nD8OWk"
+                src="https://canaldoestudante.com.br/wp-content/uploads/2022/04/bradesco-escola-virtual.jpg"
                 alt="Logo da organização Fundação Bradesco"
               />
             </a>
@@ -54,7 +54,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4E0BAQFOiaQvbDY3hQ/company-logo_200_200/0/1547486273811?e=1673481600&v=beta&t=CVgHfG1MLLHTv5fmWly5_daNOtwuKXB9uSFP2nD8OWk"
+                src="https://canaldoestudante.com.br/wp-content/uploads/2022/04/bradesco-escola-virtual.jpg"
                 alt="Logo da organização Fundação Bradesco"
               />
             </a>
@@ -74,7 +74,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQHU-m2Q6FnwDw/company-logo_200_200/0/1657132506446?e=1673481600&v=beta&t=lv3JIOD-HUsvbmBrOYuwJv-yUbcyQDe0gme9ki2c7kM"
+                src="https://www.projetodraft.com/wp-content/uploads/2019/12/digital-innovation-one.jpg"
                 alt="Logo da organização Digital Innovation One Inc."
               />
             </a>
@@ -93,7 +93,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQHU-m2Q6FnwDw/company-logo_200_200/0/1657132506446?e=1673481600&v=beta&t=lv3JIOD-HUsvbmBrOYuwJv-yUbcyQDe0gme9ki2c7kM"
+                src="https://www.projetodraft.com/wp-content/uploads/2019/12/digital-innovation-one.jpg"
                 alt="Logo da organização Digital Innovation One Inc."
               />
             </a>
@@ -113,7 +113,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQHU-m2Q6FnwDw/company-logo_200_200/0/1657132506446?e=1673481600&v=beta&t=lv3JIOD-HUsvbmBrOYuwJv-yUbcyQDe0gme9ki2c7kM"
+                src="https://www.projetodraft.com/wp-content/uploads/2019/12/digital-innovation-one.jpg"
                 alt="Logo da organização Digital Innovation One Inc."
               />
             </a>
@@ -132,7 +132,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQHU-m2Q6FnwDw/company-logo_200_200/0/1657132506446?e=1673481600&v=beta&t=lv3JIOD-HUsvbmBrOYuwJv-yUbcyQDe0gme9ki2c7kM"
+                src="https://www.projetodraft.com/wp-content/uploads/2019/12/digital-innovation-one.jpg"
                 alt="Logo da organização Digital Innovation One Inc."
               />
             </a>
@@ -151,7 +151,7 @@ const Courses = () => {
             >
               <img
                 className="cards-image"
-                src="https://media-exp1.licdn.com/dms/image/C4D0BAQHU-m2Q6FnwDw/company-logo_200_200/0/1657132506446?e=1673481600&v=beta&t=lv3JIOD-HUsvbmBrOYuwJv-yUbcyQDe0gme9ki2c7kM"
+                src="https://www.projetodraft.com/wp-content/uploads/2019/12/digital-innovation-one.jpg"
                 alt="Logo da organização Digital Innovation One Inc."
               />
             </a>
