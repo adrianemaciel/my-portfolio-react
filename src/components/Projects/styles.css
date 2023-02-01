@@ -7,13 +7,19 @@
   margin: auto;
 }
 
-.wrapper-projects h2 {
+.section-projects h2 {
   text-align: center;
   padding-top: 30px;
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
   color: hsl(300, 92%, 23%);
+}
+.project-cards,
+.wrapper-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .project {
@@ -44,19 +50,12 @@ p {
   padding: 14px;
 }
 
-.project-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 30px;
-}
-
 @media (max-width: 600px) {
   .wrapper-projects {
     width: 100%;
   }
 
-  .project {
+  .project-cards {
     width: 100%;
     margin: 0px 0px 20px 0px;
     min-height: 420px;
