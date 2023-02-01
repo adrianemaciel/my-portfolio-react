@@ -52,8 +52,8 @@ const Projects = () => {
 
   return (
     <section className="section-projects" id="projects">
+      <h2>Projetos</h2>
       <div className="wrapper-projects">
-        <h2>Projetos</h2>
         {repoList &&
           repoList.map((repo) => {
             return (
