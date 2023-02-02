@@ -1,5 +1,6 @@
 .navigation {
   display: flex;
+  width: 100%;
   height: 80px;
   position: relative;
   padding: 0.5rem 2rem;
@@ -19,7 +20,7 @@
 .tags {
   color: white;
   font-size: 1.3rem;
-  font-weight:bold;
+  font-weight: bold;
   margin-left: 10px;
   animation: neon 5s infinite;
 }
@@ -68,6 +69,10 @@
   background-color: hsl(300, 92%, 23%);
 }
 
+.navigation-menu {
+  margin-left: 0 auto;
+}
+
 .navigation-menu ul {
   display: flex;
   font-weight: 800;
@@ -105,6 +110,7 @@
     top: 80px;
     left: 0;
     flex-direction: column;
+    width: 100%;
     height: calc(100vh - 77px);
     background-color: hsl(300, 92%, 23%);
     border-top: 1px solid black;
@@ -112,7 +118,7 @@
 
   .navigation-menu li {
     text-align: center;
-    margin: 0;
+    margin: 30px;
   }
 
   .navigation-menu li a {
@@ -121,7 +127,7 @@
     padding: 1.5rem 0;
   }
 
-  .navigation-menu li:hover {
-    background-color: #dda0dd;
+  .navigation-menu.expanded ul {
+    display: block;
   }
 }
