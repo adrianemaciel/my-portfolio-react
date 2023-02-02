@@ -52,9 +52,9 @@ const Projects = () => {
       <h2>Projetos</h2>
       <div className="wrapper-projects">
         {repoList &&
-          repoList.map((repo) => {
+          repoList.map((repo, index) => {
             return (
-              <div className="project-cards">
+              <div className="project-cards" key={index}>
                 <div className="project">
                   <a target="_blank" rel="noreferrer" href={repo.html_url}>
                     <img
