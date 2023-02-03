@@ -39,7 +39,7 @@ const Courses = () => {
                 alt="Logo da organização Fundação Bradesco"
               />
             </a>
-            <h3>HTML Básico</h3>
+            <h3>HTML5 Básico</h3>
             <p>
               Este curso foi desenvolvido para auxiliar na criação de páginas
               Web, por meio do Hyper Text Markup Language – mais conhecido como
@@ -58,7 +58,7 @@ const Courses = () => {
                 alt="Logo da organização Fundação Bradesco"
               />
             </a>
-            <h3>HTML Avançado</h3>
+            <h3>HTML5 Avançado</h3>
             <p>
               Este curso abordou conceitos que complementam o conteúdo
               apresentado no curso de HTML – Básico. Agora, aprendendo a criar e
