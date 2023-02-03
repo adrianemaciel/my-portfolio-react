@@ -51,17 +51,16 @@ const About = () => {
         <div className="about-author">
           <h2>Conheça um pouco sobre mim</h2>
           <p>
-            Olá, me chamo Adriane Maciel tenho 25 anos e sou natural de
-            Manaus/Am. Possuo graduação e pós graduação em Educação Física
-            porém, recorrir a transisão de carreira e há um ano me permitir
-            conhecer a programação, desde então venho aprimorando meus
-            conhecimentos no Desenvolvimento Web.
+            Olá, Mundo! Me chamo Adriane Maciel, tenho 25 anos. Possuo graduação
+            e pós graduação em Educação Física porém, recorrir a transição de
+            carreira e atualmente sou Graduanda em Análise e Desenvolvimento de
+            Sistemas.
           </p>
           <p>
-            Atualmente, estou focada em aprimorar conhecimentos sobre
-            tecnologias voltadas para Front End. Exactamente, pelo interesse em
-            fazer parte do desenvolvimento da interface gráfica do usuário de um
-            site e quero tornar disso minha profissão.
+            Com foco diariamente em tecnologias voltadas para Front End.
+            Exactamente, pelo interesse em fazer parte do desenvolvimento da
+            interface gráfica do usuário de um site e quero tornar disso minha
+            profissão.
           </p>
 
           <Tech />
