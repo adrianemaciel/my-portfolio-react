@@ -26,6 +26,7 @@ const About = () => {
               <a
                 href="https://www.linkedin.com/in/adrianemacieldeveloper/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="footer-icon"
@@ -33,7 +34,11 @@ const About = () => {
                   alt="Icone Linkedin"
                 />
               </a>
-              <a href="https://github.com/adrianemaciel" target="_blank">
+              <a
+                href="https://github.com/adrianemaciel"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="footer-icon"
                   src={GITHUB_LOGO_IMAGE}

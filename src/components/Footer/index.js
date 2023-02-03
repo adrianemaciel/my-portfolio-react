@@ -4,7 +4,6 @@ import WHATSAPP_IMAGE from "../../assets/whatsapp-icon.png";
 import GMAIL_IMAGE from "../../assets/gmail-icon.png";
 import LINKEDIN_IMAGE from "../../assets/linkedin-icon.png";
 import GITHUB_LOGO_IMAGE from "../../assets/github-icon.png";
-import FOOTER_BANNER_IMAGE from "../../assets/footer-banner.png";
 
 const Footer = () => {
   return (
@@ -38,6 +37,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/adrianemacieldeveloper/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="footer-icon"
@@ -46,7 +46,11 @@ const Footer = () => {
               />
               <span>adrianemacieldeveloper</span>
             </a>
-            <a href="https://github.com/adrianemaciel" target="_blank">
+            <a
+              href="https://github.com/adrianemaciel"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="footer-icon"
                 src={GITHUB_LOGO_IMAGE}
@@ -58,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-text">
-        <span> &copy; 2022 - Adriane Maciel</span>
+        <span> &copy; 2023 - Adriane Maciel</span>
       </div>
     </footer>
   );
