@@ -10,7 +10,7 @@ import REACT_IMAGE from "../../assets/icons8-react.png";
 const Tech = () => {
   return (
     <section className="tech">
-      <h4>Skills</h4>
+      <h2>Minhas Habilidades</h2>
       <div className="tech-icons">
         <img className="icons" src={HTML5_IMAGE} alt="Logo HTML5" />
         <img className="icons" src={CSS3_IMAGE} alt="Logo CSS3" />

@@ -9,8 +9,8 @@ const Home = () => {
         <div className="wrapper-text">
           <h1>Adriane Maciel</h1>
           <span>
-            Desenvolvedora Frontend e <br/> Graduanda em Análise e Desenvolvimento de
-            Sistemas
+            Desenvolvedora Frontend e <br /> Graduanda em Análise e
+            Desenvolvimento de Sistemas
           </span>
         </div>
         <div className="wrapper-image">
