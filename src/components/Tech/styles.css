@@ -17,13 +17,9 @@
 }
 
 .tech-icons {
+  padding: 30px 20px;
   display: flex;
-  justify-content: space-evenly;
-}
-
-.icons {
-  width: 80px;
-  height: 80px;
+  justify-content: space-around;
 }
 
 @media (max-width: 600px) {
@@ -35,8 +31,8 @@
     font-size: 30px;
   }
 
-  .icons {
-    width: 50px;
-    height: 50px;
+  .svg-icon {
+    width: 40px;
+    height: 40px;
   }
 }
