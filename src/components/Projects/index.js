@@ -17,6 +17,14 @@ const Projects = () => {
             };
           });
 
+          const poke_app = repoItem.filter(
+            (repo) => repo.name === "poke-app"
+          )[0];
+
+          const desafio_nunes_sports = repoItem.filter(
+            (repo) => repo.name === "nunes-sports"
+          )[0];
+
           const portfolio = repoItem.filter(
             (repo) => repo.name === "my-portfolio-react"
           )[0];
@@ -39,7 +47,16 @@ const Projects = () => {
 
           const lgbt = repoItem.filter((repo) => repo.name === "LGBTQIA-")[0];
 
-          setRepoList([nlw, yoga, lgbt, testeM3, testeFmd, portfolio]);
+          setRepoList([
+            nlw,
+            yoga,
+            lgbt,
+            testeM3,
+            testeFmd,
+            portfolio,
+            desafio_nunes_sports,
+            poke_app,
+          ]);
         },
         (error) => {
           console.log(error);
