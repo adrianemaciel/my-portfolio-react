@@ -5,7 +5,6 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Courses from "./components/Courses";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Courses />
       <Projects />
       <Footer />
-      {/* <Contact /> */}
     </>
   );
 }
