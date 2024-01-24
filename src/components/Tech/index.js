@@ -1,23 +1,33 @@
 import React from "react";
 import "./styles.css";
-import HTML5_IMAGE from "../../assets/icons8-html5.png";
-import CSS3_IMAGE from "../../assets/icons8-css3.png";
-import JAVASCRIPT_IMAGE from "../../assets/icons8-javascript.png";
-import GIT_IMAGE from "../../assets/icons8-git.png";
-import GITHUB_IMAGE from "../../assets/icons8-github.png";
-import REACT_IMAGE from "../../assets/icons8-react.png";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaGit,
+  FaGithub,
+  FaReact,
+} from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 const Tech = () => {
   return (
     <section className="tech">
-      <h4>Skills</h4>
+      <h2>Minhas Habilidades</h2>
       <div className="tech-icons">
-        <img className="icons" src={HTML5_IMAGE} alt="Logo HTML5" />
-        <img className="icons" src={CSS3_IMAGE} alt="Logo CSS3" />
-        <img className="icons" src={JAVASCRIPT_IMAGE} alt="Logo JavaScript" />
-        <img className="icons" src={GIT_IMAGE} alt="Logo Git" />
-        <img className="icons" src={GITHUB_IMAGE} alt="Logo GitHub" />
-        <img className="icons" src={REACT_IMAGE} alt="Logo React" />
+        <FaHtml5 size={80} color="#edecec" className="svg-icon" />
+
+        <FaCss3 size={80} color="#edecec" className="svg-icon" />
+
+        <FaJs size={80} color="#edecec" className="svg-icon" />
+
+        <FaGit size={80} color="#edecec" className="svg-icon" />
+
+        <FaGithub size={80} color="#edecec" className="svg-icon" />
+
+        <FaReact size={80} color="#edecec" className="svg-icon" />
+
+        <SiTypescript size={80} color="#edecec" className="svg-icon" />
       </div>
     </section>
   );

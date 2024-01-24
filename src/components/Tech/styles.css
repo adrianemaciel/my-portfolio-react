@@ -1,21 +1,25 @@
-.tech h4 {
+.tech {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1300px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.tech h2 {
   text-align: center;
   font-weight: 800;
-  font-size: 22px;
-  line-height: 22px;
-  color: hsl(300, 92%, 23%);
+  color: white;
   padding: 30px 0px;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 .tech-icons {
+  padding: 30px 20px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.icons {
-  width: 80px;
-  height: 80px;
 }
 
 @media (max-width: 600px) {
@@ -23,12 +27,12 @@
     max-width: 100%;
   }
 
-  .tech h3 {
+  .tech h2 {
     font-size: 30px;
   }
 
-  .icons {
-    width: 50px;
-    height: 50px;
+  .svg-icon {
+    width: 40px;
+    height: 40px;
   }
 }

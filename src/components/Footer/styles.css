@@ -1,14 +1,14 @@
 .footer {
-  background-color: hsl(300, 92%, 23%);
   padding: 30px;
 }
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  font-weight: 400;
   max-width: 1300px;
+  height: 100px;
+  padding: 20px 10px;
   margin: auto;
 }
 
@@ -21,23 +21,10 @@
   text-align: center;
 }
 
-.icon-link a {
+.svg-icon a {
   display: flex;
   align-items: center;
-  text-decoration: none;
-  font-size: 16px;
-  color: white;
   margin-top: 40px;
-}
-
-.icon-link span {
-  margin-left: 5px;
-  color: white;
-}
-
-.icon-link span:hover {
-  color: #dda0dd;
-  transition: all 0.2s ease;
 }
 
 .footer-text {
@@ -56,16 +43,11 @@
 
   .social-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
   }
 
-  .col {
-    width: 100%;
-  }
-
-  .footer-icon {
-    width: 2.4rem;
+  .svg-icon {
+    width: 35px;
   }
 }
